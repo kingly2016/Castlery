@@ -1,0 +1,35 @@
+//
+//  Castlery-PrefixHeader.pch
+//  CastleryApp
+//
+//  Created by Apple on 17/8/26.
+//  Copyright © 2017年 com.castlery. All rights reserved.
+//
+
+#ifndef Castlery_PrefixHeader_pch
+#define Castlery_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ConstantMacro.h"
+
+#import "BaseViewController.h"
+#import "RootViewController.h"
+
+#import "HomeFactory.h"
+#import "ShoppingCartFactory.h"
+
+#import "CacheManager.h"
+
+#import "NetworkMacro.h"
+#import "HomeRequest.h"
+#import "ShoppingCartRequest.h"
+
+#import "Masonry.h"
+#import "SDWebImageManager.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+
+#endif /* Castlery_PrefixHeader_pch */
